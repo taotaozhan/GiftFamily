@@ -1,4 +1,4 @@
-package org.lanqiao.entity;
+package org.lanqiao.eneity;
 
 public class gift {
   //定义礼品编号 名字 价格 库存

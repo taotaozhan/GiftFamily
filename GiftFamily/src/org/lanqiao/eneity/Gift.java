@@ -1,6 +1,6 @@
 package org.lanqiao.eneity;
 
-public class gift {
+public class Gift {
   //定义礼品编号 名字 价格 库存
 private int giftId;
 private String giftName;
@@ -13,7 +13,7 @@ private String giftFun;
 private String giftType;
 
 
-public gift() {
+public Gift() {
 	super();
 	
 }

@@ -1,6 +1,7 @@
 package org.lanqiao.eneity;
 
 public class Gift {
+<<<<<<< HEAD
   //定义礼品编号 名字 价格 库存
 private int giftId;
 private String giftName;
@@ -63,4 +64,7 @@ public void setGiftType(String giftType) {
 }
 
 
+=======
+  /sdfdsfsdf
+>>>>>>> refs/remotes/origin/zhangtao
 }

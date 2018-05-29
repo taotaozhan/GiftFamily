@@ -12,6 +12,6 @@ public class User {
 	private  String password;
 	//用户手机号
 	private int phone;
-	
+	//
 	
 }

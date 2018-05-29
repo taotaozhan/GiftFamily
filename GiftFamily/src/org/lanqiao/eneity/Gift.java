@@ -1,14 +1,14 @@
 package org.lanqiao.eneity;
 
 public class Gift {
-<<<<<<< HEAD
+	
   //定义礼品编号 名字 价格 库存
 private int giftId;
 private String giftName;
 private double giftPrice;
 private int num;
  
-//定义礼品类别 根据对象阶段分类  根据功能分类  根据类型分类1
+//定义礼品类别 根据对象阶段分类  根据功能分类  根据类型分类
 private String giftObj;  
 private String giftFun;
 private String giftType;
@@ -62,9 +62,4 @@ public String getGiftType() {
 public void setGiftType(String giftType) {
 	this.giftType = giftType;
 }
-
-
-=======
-  /sdfdsfsdf
->>>>>>> refs/remotes/origin/zhangtao
 }

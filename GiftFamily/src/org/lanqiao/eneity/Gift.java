@@ -7,7 +7,7 @@ private String giftName;
 private double giftPrice;
 private int num;
  
-//定义礼品类别 根据对象阶段分类  根据功能分类  根据类型分类
+//定义礼品类别 根据对象阶段分类  根据功能分类  根据类型分类1
 private String giftObj;  
 private String giftFun;
 private String giftType;

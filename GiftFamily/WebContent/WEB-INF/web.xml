@@ -9,4 +9,50 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>org.lanqiao.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RegServlet</display-name>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>org.lanqiao.servlet.RegServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/RegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>org.lanqiao.servlet.ImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/ImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PhoneNumServlet</servlet-name>
+    <servlet-class>org.lanqiao.servlet.PhoneNumServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PhoneNumServlet</servlet-name>
+    <url-pattern>/PhoneNumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RegPhoneServlet</display-name>
+    <servlet-name>RegPhoneServlet</servlet-name>
+    <servlet-class>org.lanqiao.servlet.RegPhoneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegPhoneServlet</servlet-name>
+    <url-pattern>/RegPhoneServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

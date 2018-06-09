@@ -6,7 +6,7 @@ public class Gift {
 private int giftId;
 private String giftName;
 private double giftPrice;
-private int num;
+private int giftNum;
  
 //定义礼品类别 根据对象阶段分类  根据功能分类  根据类型分类
 private String giftObj;  
@@ -38,11 +38,11 @@ public double getGiftPrice() {
 public void setGiftPrice(double giftPrice) {
 	this.giftPrice = giftPrice;
 }
-public int getNum() {
-	return num;
+public int getGiftNum() {
+	return giftNum;
 }
-public void setNum(int num) {
-	this.num = num;
+public void setGiftNum(int num) {
+	this.giftNum = num;
 }
 public String getGiftObj() {
 	return giftObj;

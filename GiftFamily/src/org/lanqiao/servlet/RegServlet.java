@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.lanqiao.dao.UserDao;
 import org.lanqiao.eneity.User;
-import org.xatu.service.RegService;
+import org.lanqiao.service.RegService;
 
 /**
  * Servlet implementation class RegServlet

@@ -1,8 +1,8 @@
-package org.xatu.test;
+package org.lanqiao.test;
 
 import org.lanqiao.dao.UserDao;
 import org.lanqiao.eneity.User;
-import org.xatu.service.RegService;
+import org.lanqiao.service.RegService;
 
 import com.aliyuncs.exceptions.ClientException;
 

@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.lanqiao.eneity.User;
+import org.lanqiao.service.LoginService;
 import org.lanqiao.util.StringUtil;
-import org.xatu.service.LoginService;
 
 /**
  * Servlet implementation class LoginServlet

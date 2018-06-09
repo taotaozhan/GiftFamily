@@ -1,4 +1,4 @@
-package org.xatu.service;
+package org.lanqiao.service;
 
 import org.lanqiao.dao.UserDao;
 import org.lanqiao.eneity.User;

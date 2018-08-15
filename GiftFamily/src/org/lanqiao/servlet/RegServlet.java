@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.lanqiao.dao.UserDao;
-import org.lanqiao.eneity.User;
+import org.lanqiao.enetity.User;
 import org.lanqiao.service.RegService;
 
 /**
@@ -32,7 +32,10 @@ public class RegServlet extends HttpServlet {
 		     s.setPassword(password);
 		     s.setPhone(phone);
 		 	
-		  
+		  //判断用户名是否存在
+      
+		 //判断手机号是否存在    
+		     
 		             
 		     RegService reg = new RegService();
 		     reg.regUser(s);

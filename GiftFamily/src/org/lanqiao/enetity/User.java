@@ -1,4 +1,4 @@
-package org.lanqiao.eneity;
+package org.lanqiao.enetity;
 
 import java.util.Date;
 

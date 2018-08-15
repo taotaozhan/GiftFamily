@@ -143,15 +143,15 @@
                 	<div class="left_yh hidden_yh" style="margin-top:32px;margin-left:50px;">
                     	<img src="images/n,.jpg" width="60" height="60" class="left_yh" style="border-radius:50%;margin-right:34px;">
                         <div class="left_yh">
-                        	<h3 class="font24 c_33 font100">用户名用户名</h3>
+                        	<h3 class="font24 c_33 font100">用户名</h3>
                             <p class="font20 c_66" style="margin-top:4px;">15566221133</p>
                         </div>
                     </div>
                     <div class="left_yh hidden_yh font20" style="margin-left:150px;line-height:122px;">
-                    	<a href="#" style="color:#ff5802;" class="onHover">我的收获地址</a>
+                    	<a href="address.jsp" style="color:#ff5802;" class="onHover">我的收获地址</a>
                     </div>
                     <div class="left_yh hidden_yh font20" style="margin-left:150px;line-height:122px;">
-                    	<a href="#" style="color:#ff5802;" class="onHover">我的收藏</a>
+                    	<a href="collect.jsp" style="color:#ff5802;" class="onHover">我的收藏</a>
                     </div>
                 </div>
                 <ul class="width100 hidden_yh" style="height:78px;border-top:1px solid #ddd;">

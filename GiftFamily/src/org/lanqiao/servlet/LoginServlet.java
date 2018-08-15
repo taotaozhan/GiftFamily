@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.lanqiao.eneity.User;
+import org.lanqiao.enetity.User;
 import org.lanqiao.service.LoginService;
 import org.lanqiao.util.StringUtil;
 
@@ -27,8 +27,7 @@ public class LoginServlet extends HttpServlet {
         String userName=request.getParameter("user");
 		String password=request.getParameter("pass");
 		
-		request.setAttribute("userName", userName);
-		request.setAttribute("password", password);
+		
 		if(StringUtil.isEmpty(userName)||StringUtil.isEmpty(password)){
 			request.setAttribute("error", "用户名或密码错误");
 			request.getRequestDispatcher("index.jsp").forward(request, response);
@@ -38,7 +37,9 @@ public class LoginServlet extends HttpServlet {
      User s = new User();
      s.setUsername(userName);
      s.setPassword(password);
-		
+     
+     request.setAttribute("user", s);
+     
      LoginService loginService = new LoginService();
        boolean falg = loginService.userIsExit(s);
 		if (falg == true){

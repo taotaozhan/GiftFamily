@@ -128,7 +128,7 @@
 <div class="width100 hidden_yh" style="background:#f0f0f0;padding-top:34px;padding-bottom:34px;">
 	<div class="width1200 hidden_yh center_yh">
     	<div id="vipNav">
-        	<a href="#" class="on">账户总览</a>
+        		<a href="peopleCenter.jsp" class="on">账户总览</a>
             <a href="peopleMessage.jsp">个人信息</a>
             <a href="order.jsp">我的订单</a>
             <a href="collect.jsp">商品收藏</a>

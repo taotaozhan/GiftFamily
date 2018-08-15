@@ -1,13 +1,51 @@
 package org.lanqiao.test;
 
+import org.lanqiao.dao.GiftDao;
 import org.lanqiao.dao.UserDao;
-import org.lanqiao.eneity.User;
+import org.lanqiao.enetity.Gift;
+import org.lanqiao.enetity.User;
+import org.lanqiao.service.ForgetPasswordservice;
+import org.lanqiao.service.GiftListService;
 import org.lanqiao.service.RegService;
 
 import com.aliyuncs.exceptions.ClientException;
 
 public class Test {
    public static void main(String[] args) throws ClientException {
+	  
+	   String password = "123456";
+	   String phone = "17319563872";
+	   ForgetPasswordservice s = new ForgetPasswordservice();
+	   s.updatePassword(password, phone);
+	   
+	   
+	 /*  UserDao s = new UserDao();
+	   s.updatePassword(password, phone);*/
+	   
+/*
+	   Gift gift = new Gift();
+	   gift.setGift_name("泰迪");
+	   
+	   GiftDao  d = new GiftDao();
+	   d.giftList(gift);
+	   
+	   GiftListService g = new GiftListService();
+	   g.GiftList(gift);
+	   */
+	   
+	/* UserDao s = new UserDao();
+	 String a = "小丁";
+	 s.queryPassword(a);
+*/	 
+	/* ForgetPasswordservice b = new ForgetPasswordservice();
+	 String a = "丁";
+	 b.forgetPassword(a);*/
+	   
+	   
+	   
+	   
+	   
+	   
 	/*UserDao user = new UserDao();
 	user.findUser("张涛");
 	

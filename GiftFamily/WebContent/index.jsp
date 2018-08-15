@@ -1,10 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+    <%
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()
+			+ path + "/";
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>商品主页</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/jquery.luara.0.0.1.min.js"></script>
@@ -28,9 +34,9 @@
 	<div class="width1200 center_yh hidden_yh">
     	<a href="#" class="block_yh left_yh" style="margin-top:40px;"><img src="images/logo2.png"></a>
         <div class="right_yh" style="height:28px;width:316px;border:2px solid #dd4545;margin-top:48px;">
-        	<form>
-                <input type="text" placeholder="关键词查询" class="searCh">
-                <input type="button" class="btnSearh" value="搜索">
+        	<form action="GiftListServlet" method="post">
+                <input type="text" placeholder="关键词查询" class="searCh" name="s">
+                <input type="submit" class="btnSearh" value="搜索">
             </form>
         </div>
     </div>

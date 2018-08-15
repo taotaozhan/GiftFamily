@@ -1,7 +1,7 @@
 package org.lanqiao.service;
 
 import org.lanqiao.dao.UserDao;
-import org.lanqiao.eneity.User;
+import org.lanqiao.enetity.User;
 import org.lanqiao.util.SmsDemo;
 
 import com.aliyuncs.dysmsapi.model.v20170525.SendSmsResponse;

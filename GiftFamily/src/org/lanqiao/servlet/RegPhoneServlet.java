@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.lanqiao.eneity.User;
+import org.lanqiao.enetity.User;
 import org.lanqiao.service.RegService;
 
 import com.aliyuncs.dysmsapi.model.v20170525.SendSmsResponse;

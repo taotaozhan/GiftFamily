@@ -28,7 +28,7 @@
                         <img src="images/pass.jpg" class="left_yh" width="42" height="42">
                         <input type="password" placeholder="请输入密码" name="pass" style="border:0;width:292px;height:42px;font-size:16px;text-indent:22px;">
                     </div>
-                    <p class="width100 tright font16" style="margin-bottom:26px;"><a href="#" style="color:#4585dd;">忘记密码?</a></p>
+                    <p class="width100 tright font16" style="margin-bottom:26px;"><a href="forgetPassword.jsp" style="color:#4585dd;">忘记密码?</a></p>
                     <input type="submit" value="登录" class="center_yh" style="width:100%;height:43px;font-size:16px;background:#dd4545;outline:none;border:0;color:#fff;cursor:pointer;">
                 </form>
             </div>

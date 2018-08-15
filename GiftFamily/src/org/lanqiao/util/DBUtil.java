@@ -5,7 +5,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.lanqiao.eneity.User;
+import org.lanqiao.enetity.User;
 
 public class DBUtil {
     private static final String url = "jdbc:oracle:thin:@localhost:1521:orcl";
